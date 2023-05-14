@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta chartset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"></link>
+  </head>
+  <body>
+
+    <div class="top">
+    <h1 id="title">Booko Survey Form</h1>
+    <p id="description">This is a survey to test your statisfaction of this service</p>
+    </div>
+    <div class="data">
+      <form id="survey-form">
+        <label id="name-label" for="name">Name <input type="text" id="name" placeholder="Enter your Name" required></label>
+        <label id="email-label" for="email">Email <input type="email" id="email" placeholder="Enter your Email" required></label>
+        <label id="number-label" for="number">Number <input type="number" id="number" min=1 max=5 placeholder="01111"></label>
+        <label for="dropdown"> What genre you are most interested in?
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="Action">Action</option>
+            <option value="Sci-Fiction">Sci-Fiction</option>
+            <option value="Classic">Classic</option>
+            <option value="Fiction">Fiction</option>
+          </select>
+        </label>
+        <label>Would you recommed Booko to a friend?</label>
+        <label for="definetly"><input type="radio" name="recommend" value="definetly" id="definetly"> Definetly</label>
+        <label for="maybe"><input type="radio" name="recommend" value="maybe" id="maybe"> Maybe</label>
+        <label for="notsure"><input type="radio" name="recommend" value="notsure" id="notsure"> Not Sure</label>
+        <label>What would you like to improve about Booko
+          <label for="quizzes"><input type="checkbox" name="improvement" value="quizzes" id="quizzes" > Quizzes</label>
+          <label for="navigation"><input type="checkbox" name="improvement" value="navigation" id="navigation"> Website Navigation</label>
+          <label for="flashcards"><input type="checkbox" name="improvement" value="flashcards" id="flashcards"> Flashcards</label>
+          <label for="rewards"><input type="checkbox" name="improvement" value="rewards" id="rewards"> Rewards</label>          
+        </label>
+        <label for="feedback">Share your feedback: </label><textarea name="feedback" placeholder="I think that ..." id="feedback" rows=10 cols=52></textarea>
+        <input id="submit" value="Submit" type="submit" >
+      </form>
+    </div>
+  </body>
+</html>
