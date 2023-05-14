@@ -1,0 +1,75 @@
+body{
+  background-image: url("https://img.freepik.com/free-photo/book-library-with-open-textbook_1150-5920.jpg?w=1060&t=st=1684088537~exp=1684089137~hmac=a5d49ee0be030e4ffe15070589efc94a485df4342df4f5fa28fdfada723a8149");
+  background-size: cover;
+}
+form{
+  width: 100%;
+  height: 800px; 
+  padding: 0;
+  margin: 0 ;
+}
+.top{
+  text-align: center;
+  padding-top: 3rem;
+  color: #c8cfe8;
+}
+h1{
+  font-family: Verdana; 
+  padding-bottom:0;
+  margin-bottom: 0.5em;
+}
+p{
+  font-size: 16px;
+  font-family: Tahoma;
+  padding-bottom: 1em;
+  padding-top:0;
+}
+.data{
+  margin: 0 auto;
+  background-color: #051752;
+  width: 70%;
+  min-width: 600px;
+  max-width: 700px;
+  height: 1000px;
+  color: #c8cfe8;
+}
+label {
+  display: block;
+  font-family: Candara;
+  font-size: 22px;
+  margin-left: 1.7em;
+  padding-top: 0.4em;
+  margin-top: 0.1em
+
+}
+input, select, textarea{
+  font-size:16px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], input[type="number"], select{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 1.8em;
+  width: 80%;
+  display: block;
+}
+textarea{
+  margin-left: 2.2em;
+}
+input[type="submit"]{
+  display: block;
+  width: 80%;
+  height: 2em;
+  margin-left: 2.2em;
+  background-color: green;
+  
+}
+input[type="radio"], input[type="checkbox"]{
+  width: 1.1em;
+  height: 0.9em;
+}
+input[type="checkbox"]{
+  margin: unset;
+}
+img{
