@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://kit.fontawesome.com/27deda23da.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lobster&display=swap" rel="stylesheet">    
+        <title>Everyday a Quote</title>
+    </head>
+    <body onload="getNewQuote()" >
+        <div class="containerBox" id="containerBox">
+            <div class="quoteBox" id="changedColor">
+                <i id="quoteIcon" class="fa-solid fa-quote-left"></i>
+                <p id="quoteText">"The secret of getting ahead is getting started The secret of getting ahead is getting started."</p>
+            </div>
+            <div class="authorBox" id="authorBox">
+                <p id ="authorText"> - author</p>
+            </div>
+            <div class="bottomBtns">
+                <button class="leftBtns" id="tweet"><a  href="https://twitter.com/intent/tweet" target="_blank"><i class="fa-brands fa-twitter"></i></a></button>
+                <button class="leftBtns" id="post"><a href="https://www.tumblr.com/" target="_blank"><i class="fa-brands fa-tumblr"></i></a></button>
+                <button class="rightBtn" id="newQuote" onclick="getNewQuote()">New Quote</button>
+            </div>
+                
+        </div>
+    </body>
+</html>
